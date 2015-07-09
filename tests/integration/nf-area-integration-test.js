@@ -2,7 +2,7 @@ import Ember from "ember";
 import yourFace from 'ember-test-helpers';
 import { moduleForComponent, test } from "ember-qunit";
 
-moduleForComponent('nf-area', 'FormGroupComponent', {
+moduleForComponent('nf-area', 'NfAreaComponent', {
   integration: true,
 
   needs: ['component:nf-graph', 'component:nf-graph-content'],
@@ -11,7 +11,7 @@ moduleForComponent('nf-area', 'FormGroupComponent', {
   }
 });
 
-test('work MF-er!', function(assert) {
+test('work dammit!', function(assert) {
   this.set('testData', range(0, 10).map(x => ({ x, y:10 })));
 
   this.render(`
