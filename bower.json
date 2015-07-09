@@ -12,6 +12,10 @@
     "loader.js": "ember-cli/loader.js#3.2.0",
     "qunit": "~1.17.1",
     "d3": "~3.5.5",
-    "rxjs": "~2.3.24"
+    "rxjs": "~2.3.24",
+    "ember-test-helpers": "~0.5.1"
+  },
+  "resolutions": {
+    "ember": "1.11.1"
   }
 }
